@@ -13,7 +13,12 @@ sites:
     url: https://connect.catego.app
 
 status-website:
-  baseUrl: /catego-status
+  # Add your custom domain here:
+  cname: status.catego.app
+  
+  # DELETE OR COMMENT OUT THIS LINE:
+  # baseUrl: /catego-status
+  
   logoUrl: https://connect.catego.app/favicon.svg
   favicon: https://connect.catego.app/favicon.svg
   name: Catego System Status
