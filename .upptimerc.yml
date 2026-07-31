@@ -13,9 +13,44 @@ sites:
     url: https://connect.catego.app
 
 status-website:
-  # Add the GitHub repository name using the baseUrl setting
   baseUrl: /catego-status
   logoUrl: https://connect.catego.app/favicon.svg
+  favicon: https://connect.catego.app/favicon.svg
   name: Catego System Status
   introTitle: "Real-time system status for Catego Open Banking."
   introMessage: "Welcome to the Catego status page. Here you can monitor our API uptime and operational health."
+  
+  # Inject Catego Branding
+  customCss: |
+    :root {
+      /* Base Colors */
+      --color-primary: #f5793b;
+      --color-primary-dark: #e0682e;
+      --color-text: #0f172a;
+      --color-background: #f8fafc;
+    }
+    
+    /* Dark Slate Header */
+    nav {
+      background-color: #0f172a !important;
+    }
+    nav a {
+      color: #ffffff !important;
+    }
+    nav h1 {
+      color: #ffffff !important;
+    }
+
+    /* Orange Links and Buttons */
+    a {
+      color: var(--color-primary);
+    }
+    a:hover {
+      color: var(--color-primary-dark);
+    }
+    
+    /* Footer tweaks */
+    footer {
+      color: #64748b;
+      background-color: #f1f5f9;
+    }
