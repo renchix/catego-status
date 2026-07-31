@@ -7,9 +7,9 @@ user-agent: Catego-Uptime-Bot
 sites:
   - name: Catego AIS API
     url: https://ais.catego.app/health
-  - name: Admin Portal
+  - name: AIS Admin Portal
     url: https://ais-portal.catego.app
-  - name: Auth Gateway (PSU frontend)
+  - name: AIS Auth Gateway (PSU frontend)
     url: https://connect.catego.app
 
 status-website:
