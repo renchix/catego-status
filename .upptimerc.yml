@@ -22,8 +22,8 @@ status-website:
   logoUrl: https://connect.catego.app/favicon.svg
   favicon: https://connect.catego.app/favicon.svg
   name: Catego System Status
-  introTitle: "Real-time system status for Catego Open Banking (AIS)."
-  introMessage: "Welcome to the Catego AIS status page. Here you can monitor our API uptime and operational health."
+  introTitle: "Real-time system status of Catego Open-banking (AIS)"
+  introMessage: "Welcome to the Catego AIS status page where you can monitor API uptime and operational health."
   
   # Inject Catego Branding
   customCss: |
