@@ -9,7 +9,7 @@ sites:
     url: https://ais.catego.app/health
   - name: Admin Portal
     url: https://ais-portal.catego.app
-  - name: Auth Gateway
+  - name: Auth Gateway (PSU frontend)
     url: https://connect.catego.app
 
 status-website:
@@ -17,8 +17,8 @@ status-website:
   logoUrl: https://connect.catego.app/favicon.svg
   favicon: https://connect.catego.app/favicon.svg
   name: Catego System Status
-  introTitle: "Real-time system status for Catego Open Banking."
-  introMessage: "Welcome to the Catego status page. Here you can monitor our API uptime and operational health."
+  introTitle: "Real-time system status for Catego Open Banking (AIS)."
+  introMessage: "Welcome to the Catego AIS status page. Here you can monitor our API uptime and operational health."
   
   # Inject Catego Branding
   customCss: |
@@ -54,3 +54,5 @@ status-website:
       color: #64748b;
       background-color: #f1f5f9;
     }
+i18n:
+  footer: "© 2026 Catego SIA. All rights reserved."
