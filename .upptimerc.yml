@@ -1,31 +1,21 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: renchix  # Replace with your actual GitHub username/org
+repo: catego-status                 # Replace with your repository name
 
+user-agent: Catego-Uptime-Bot
+
+# List of endpoints to track
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Catego AIS API
+    url: https://ais.catego.app/health
+  - name: Admin Portal
+    url: https://ais-portal.catego.app
+  - name: Auth Gateway
+    url: https://connect.catego.app
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  # Add the GitHub repository name using the baseUrl setting
+  baseUrl: /catego-status
+  logoUrl: https://connect.catego.app/favicon.svg
+  name: Catego System Status
+  introTitle: "Real-time system status for Catego Open Banking."
+  introMessage: "Welcome to the Catego status page. Here you can monitor our API uptime and operational health."
