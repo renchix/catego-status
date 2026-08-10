@@ -11,6 +11,8 @@ sites:
     url: https://ais-portal.catego.app
   - name: AIS Auth Gateway (PSU frontend)
     url: https://connect.catego.app
+  - name: Catego Categorization Web cabinet
+    url: https://cabinet.catego.app
 
 status-website:
   # Add your custom domain here:
@@ -22,8 +24,8 @@ status-website:
   logoUrl: https://connect.catego.app/favicon.svg
   favicon: https://connect.catego.app/favicon.svg
   name: Catego System Status
-  introTitle: "Real-time system status of Catego Open-banking (AIS)"
-  introMessage: "Welcome to the Catego AIS status page where you can monitor API uptime and operational health."
+  introTitle: "Real-time system status of Catego Open-banking (AIS) and Catego Categorization"
+  introMessage: "Welcome to the Catego API status page where you can monitor API uptime and operational health."
   
   # Inject Catego Branding
   customCss: |
