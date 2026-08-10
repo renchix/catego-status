@@ -13,6 +13,8 @@ sites:
     url: https://connect.catego.app
   - name: Catego Categorization Web cabinet
     url: https://cabinet.catego.app
+  - name: Catego Categorization API
+    url: https://api.catego.app/health?check=1
 
 status-website:
   # Add your custom domain here:
