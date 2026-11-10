@@ -1,7 +1,7 @@
 url: https://api.catego.app/health?check=1
 status: up
 code: 200
-responseTime: 553
-lastUpdated: 2026-11-09T02:19:18.448Z
+responseTime: 639
+lastUpdated: 2026-11-10T04:28:09.278Z
 startTime: 2026-08-10T20:21:06.740Z
 generator: Upptime <https://github.com/upptime/upptime>
